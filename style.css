@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: solid 1px black;
+}
+
+.myBlock{
+    height: 100vh;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+
+#header:hover{
+    background-color: black;
+}
+
+#content-container{
+    width: 100%;
+    height: 80%;
+}
+
+
+#left_panel{
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: orangered;
+}
+
+#left_panel:hover{
+    background-color: black;
+}
+
+#content-block{
+    float: right;
+    height: 100%;
+    width: 85%;
+
+}
+
+#content-name{
+    width: 100%;
+    height: 15%;
+    background-color: yellow;
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+}
+#content-name:hover{
+    background-color: black;
+}
+#content{
+  padding-left: 20px;
+    width: 100%;
+    height: 85%;
+}
+
+#footer{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+#footer:hover{
+    background-color: black;
+}
+span{
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+tr{
+    width: 100%;
+
+    background-color: brown;
+}
+body, html {
+    height: 100%;
+}
+
+
+
+table{
+    padding-left: 15%;
+    height: 100%;
+}
+
+.tHeader{
+    background-color: blue;
+    height: 50px;
+}
+
+.tFooter{
+    background-color: blue;
+    height: 50px;
+
+}
+
+.insideHeader{
+
+    background-color: yellow;
+    height: 50px;
+}
+.content{
+    height: 100%;
+
+
+}
+
+.leftPanel{
+    width: 150px;
+    height: 100%;
+    background-color: yellow;
+
+}
+
+.content_div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.d1, .d2, .d3{
+    text-align: center;
+    background-color: white;
+    border: solid 1px black;
+
+}
+
+.d1{
+
+    flex-grow: 1;
+}
+
+.d2{
+    flex-grow: 2;
+}
+.d3{
+    flex-grow: 3;
+}
+
+.d1:hover, .d2:hover, .d3:hover, td:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
